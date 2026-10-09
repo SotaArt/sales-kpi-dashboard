@@ -1,0 +1,14 @@
+{
+  "name": "op1-sheets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Доступ к таблице отдела продаж через Google Sheets API (OAuth от вашего имени)",
+  "type": "module",
+  "scripts": {
+    "auth": "node auth.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "googleapis": "^182.0.0"
+  }
+}

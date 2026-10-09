@@ -1,0 +1,17 @@
+{
+  "_комментарий": "Скопируйте этот файл как config.json и подставьте свои значения из Google Cloud Console. Файл config.json в git НЕ попадает (см. .gitignore).",
+
+  "_как_получить": [
+    "1. Откройте https://console.cloud.google.com/projectcreate и создайте проект (например, «OP1 Sheets»).",
+    "2. Включите Google Sheets API: https://console.cloud.google.com/apis/library/sheets.googleapis.com → Enable.",
+    "3. Создайте OAuth-клиент: https://console.cloud.google.com/apis/credentials → Create Credentials → OAuth client ID → Application type: Desktop app.",
+    "4. Скопируйте сюда Client ID и Client secret.",
+    "5. Если появится экран «OAuth consent screen» — настройте его: Type: External, добавьте свой Google-аккаунт в Test users.",
+    "6. Запустите: npm run auth"
+  ],
+
+  "client_id": "СЮДА_CLIENT_ID",
+  "client_secret": "СЮДА_CLIENT_SECRET",
+
+  "spreadsheet_id": "YOUR_SPREADSHEET_ID"
+}
